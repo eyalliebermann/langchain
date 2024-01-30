@@ -1,0 +1,7 @@
+python -m venv venv.app
+source venv.app/bin/activate
+
+
+pip list
+pip freeze
+pip freeze > requirements.app.txt
