@@ -32,7 +32,7 @@ fi
 
 # Check if venv exists, if not create it
 if [ ! -d "VENV_DIR" ]; then
-    echo -e "\n\nCreating a new virtual environment, for app ..."
+    echo -e "\n\nCreating a new virtual environment, for Jupter Notebook ..."
     python3 -m venv "$VENV_DIR"
 fi
 
