@@ -35,8 +35,13 @@ This script will:
 
 ## Cheatsheet
 
-Some useful commands I used during the setup and the excution of this project can be found in the cheatsheet.md file.
 
+'''
+source venv.app/bin/activate
+uvicorn app.main:app --reload --env-file .env
+'''
+
+Browse to [http://localhost:8000/chain/playground/](http://localhost:8000/chain/playground/)
 ## License
 
 This project is licensed under the MIT License - see the LICENSE.md file for details
